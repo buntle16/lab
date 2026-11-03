@@ -1,0 +1,18 @@
+# public 폴더 — 허용 목록 방식이 원칙. 아래는 2차 방어선.
+.env
+.env.*
+config.json
+settings.local.json
+credentials*
+*.key
+*.pem
+*.log
+*.bak*
+*.pkl
+*.db
+*.sqlite
+*.csv
+live-bot/
+telegram-bot/
+logs/
+__pycache__/
